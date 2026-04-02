@@ -1,0 +1,6 @@
+
+all:
+	gcc server_3920.c -o server_3920 -lssl -lcrypto
+
+run:
+	./server_3920
